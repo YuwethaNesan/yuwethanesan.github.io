@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>Yuthies Designers</title>
+  <link rel="stylesheet"  href="../html/css/contactus.css">
+  <link rel="stylesheet"  href="../html/css/bootstrap.css">
+  <link rel="stylesheet"  href="../html/css/bootstrap.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    .bg-image {
+      /* The image used */
+      background-image: url("photographer.jpg");
+      
+      /* Add the blur effect */
+      filter: blur(50px);
+      -webkit-filter: blur(50px);
+      
+      /* Full height */
+      height: 100%; 
+      
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    /* Position text in the middle of the page/image */
+    .bg-text {
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+      color: white;
+      border: 3px solid #f1f1f1;
+      position:absolute;
+      transform: translate(8%, -18%);
+      z-index: 7;
+      padding: 10px;
+      width: 85%;
+    }
+    </style>
+ </head>
+        <body>
+                    <nav>
+                        <a href="../html/index.html" class="button1">Home</a>
+                    </nav>
+                    <div class="inquary">
+                        <h1>How Can I Help You?</h1>
+                    </div>
+        <form>
+            <div class="bg-text">
+        <pre>
+                <label class="for1">Name:-</label>                    <input type="text box" size=40>
+
+                <label class="for1">Address:-</label>                  <textarea rows=2 cols=55></textarea>
+                
+
+                <label class="for1">E-Mail Id:-</label>                  <input type="text box" size=40>
+
+                <label class="for1">Gender:-</label>                   Male<input type="radio" name=sky> Female<input type="radio" name=sky>
+
+                <label class="for1">Your Needs:-</label>               <select class="sel1">
+                                                                        <option>SELECT</option>
+                                                                        <option>Graphic Designing</option>
+                                                                        <option>Website Designing</option>
+                                                                        <option>Stationary Designing</option>
+                                                                        <option>3D Designing</option>
+                                                                        <option>Typing Works</option>
+                                                                       </select>
+                                
+                <label class="for1">Your Budget:-</label>             <input type="checkbox">Rs500-Rs2000            <input type="checkbox">Rs5000-Rs8000
+                                                       
+                                           <input type="checkbox">Rs2000-Rs5000           <input type="checkbox">Rs8000-Rs10000
+                                                                
+                     <input type="SUBMIT"VALUE="SUBMIT" style="border-radius: 10px ; background-color: #e93388;padding: 8px;font-family: cursive; color: cyan;">  <input type="reset"value="NEW" style="border-radius: 10px; background-color: #e93388;padding: 8px;font-family: cursive;color: cyan;">
+            
+            
+            </pre>
+        </div>
+    </form>
+</body>
+</html>
