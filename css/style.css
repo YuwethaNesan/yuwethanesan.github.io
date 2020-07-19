@@ -8,8 +8,6 @@ body{
   background-size: contain;
   background-position-x: right;
   animation: forwards;
-  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-  -ms-zoom-animation: default;
 }
 .container
   h1{
